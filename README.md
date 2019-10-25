@@ -40,6 +40,7 @@ pip3 install tensorflow-gpu
 
 At the time of writing the most recent TensorFlow version is 1.14 and the pre-built binary requires CUDA 10 and cuDNN 7.4. You can always check the required versions in the TensorFlow [GPU support notes](https://www.tensorflow.org/install/gpu).
 
+*Right now, we only support TensorFlow 1.x. TensorFlow 2 has recently been released and we plan switching to it and its integrated tf.keras in the future.*
 
 ### Documentation
 
@@ -57,6 +58,9 @@ At the time of writing the most recent TensorFlow version is 1.14 and the pre-bu
 
 
 ### Changelog
+
+**v1.2.2 - 22. October 2019 (PyPI)**
+* fix Tensorflow version to < 2.0 for now
 
 **v1.2.1 - 28. February 2019 (PyPI)**
 * small fix to be compatible with the forgi 2.0 dependency
